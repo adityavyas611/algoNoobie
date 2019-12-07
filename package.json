@@ -2,6 +2,9 @@
   "name": "algoNoobie",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  }
   "repository": "git@github.com:adityavyas611/algoNoobie.git",
   "author": "Aditya Vyas <vyasaditya41@yahoo.in>",
   "license": "MIT",
