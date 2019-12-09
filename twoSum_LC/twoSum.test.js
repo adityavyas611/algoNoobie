@@ -15,9 +15,9 @@ describe('adding two values of array === target',() => {
 
     test('should return empty array if array elements is not number', () => {
         expect(twoSum(['a','b','c','d'],9)).toEqual([]);
-    })
+    });
 
     test('should always return an array', () => {
         expect(typeof twoSum([2,3,4,5],7)).toBe('object');
-    })
+    });
 });
