@@ -1,0 +1,1 @@
+In this program I am passing one parameter to return the new promise.
