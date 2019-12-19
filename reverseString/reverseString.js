@@ -1,4 +1,4 @@
-function reverseString(OriginalString) {
+const reverseString = (OriginalString) => {
     const ReverseString = [];
   
     const SplittedStringArray = OriginalString.split("");
@@ -9,4 +9,4 @@ function reverseString(OriginalString) {
     return ReverseString.join("");
   }
   
-  export { reverseString };
+module.exports = reverseString;
