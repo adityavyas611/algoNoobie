@@ -16,4 +16,4 @@ describe('You are climbing a stair case. It takes n steps to reach to the top.',
     test('should return 1 as 1', () => {
         expect(climbingStairs(1)).toBe(1);
     });
-})
+});
